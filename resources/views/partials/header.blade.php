@@ -9,8 +9,8 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo" />
+            <div class="logo"><a href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo" /></a>
+                
             </div>
             <nav>
                 <ul>    
