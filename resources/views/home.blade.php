@@ -32,6 +32,8 @@
             @endforeach
             
         </div>
+
+        <x-button>LOAD MORE</x-button>
     </div>
 
     <section class="blue-strip">
