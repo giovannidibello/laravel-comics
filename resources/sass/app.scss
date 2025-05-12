@@ -15,34 +15,47 @@ a {
     text-decoration: none;
 }
 
+a.active {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+}
+
 /* HEADER */
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
 }
 
 .logo img {
     width: 60px;
 }
 
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
 nav ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     list-style: none;
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    padding: 0 10px;
+    margin: 0 10px;
 }
 
-header a {
+nav a {
+    text-decoration: none;
     color: black;
-    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 /* MAIN */
@@ -53,6 +66,7 @@ main {
 
 h1 {
     color: white;
+    margin: 0;
 }
 
 main a {
