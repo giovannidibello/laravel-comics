@@ -195,7 +195,7 @@ footer a {
     font-weight: bold;
 }
 
-button {
+.button {
     border: 1px solid #0282f9;
     padding: 0.6em 1.2em;
     color: white;
@@ -204,5 +204,8 @@ button {
     font-weight: 500;
     font-family: inherit;
     cursor: pointer;
-    transition: border-color 0.25s;
+}
+
+.blue-button {
+    background-color: #0282f9;
 }

@@ -82,7 +82,7 @@
         <div class="footer-bottom">
 
             <div class="container">
-                <button>SIGN-UP NOW!</button>
+                <button class="button">SIGN-UP NOW!</button>
                 <div class="social-links">
                     <span>FOLLOW US</span>
                     <a href="#"><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="Facebook" /></a>
