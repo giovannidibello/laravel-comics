@@ -1,0 +1,194 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo img {
+    width: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+header a {
+    color: black;
+    padding: 10px 0;
+}
+
+/* MAIN */
+
+main {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+main a {
+    color: white;
+}
+
+/* jumbrotron */
+
+.jumbotron {
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+/* blue strip */
+
+.blue-strip {
+    background-color: #0282f9;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.blue-strip .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.blue-strip img {
+    width: 60px;
+    height: 60px;
+}
+
+.blue-strip a {
+    display: flex;
+    align-items: center;
+}
+
+.blue-strip span {
+    padding: 0 10px;
+}
+
+/* card */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+.prod-card {
+    flex-basis: 14%;
+    padding: 0 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.prod-card img {
+    width: 120px;
+    height: 120px;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url("../img/footer-bg.jpg");
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #959595;
+}
+
+.footer-column ul {
+    list-style: none;
+    color: white;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.side-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.side-right {
+    width: 50%;
+    background-image: url("../img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-bottom {
+    background-color: #303030;
+    padding: 20px 0;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links span {
+    color: #0282f9;
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid #0282f9;
+    padding: 0.6em 1.2em;
+    color: white;
+    background-color: inherit;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
